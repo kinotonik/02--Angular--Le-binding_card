@@ -1,0 +1,9 @@
+
+<div class="card">
+  <img [src]="user.photo" alt="Photo of {{ user.name }}">
+  <h2>{{ user.name }}</h2>
+  <p>Age : {{ user.age }}</p>
+  <p>{{ user.quote }}</p>
+  <input type="text" [(ngModel)]="user.quote">
+  <button (click)="resetQuote()">Reset</button>
+</div>
