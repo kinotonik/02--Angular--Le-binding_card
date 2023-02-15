@@ -10,5 +10,6 @@ export class User {
     this.quote = quote;
     this.photo = photo;
   }
+
 }
 
